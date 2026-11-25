@@ -62,6 +62,7 @@ Build: API key auth (hashed in DB), per-key authorization, input validation, SSR
 Deploy: a simple AWS version (e.g. ECS/Fargate or one EC2 instance, with RDS and ElastiCache or just containers). Set a budget alert first, and check current free-tier terms. Skip this part if time is tight; local Compose plus a cheap VPS is fine.
 Write: a half-page threat model (who attacks what, and what you did about it).
 Done when: you can list your top three threats and the mitigation for each.
+
 Week 8: Polish and interview prep
 Build: README with architecture diagram, guarantees, measured results table, and a "what I'd do differently / what breaks at 100x" section.
 Prep: record yourself explaining the design in 5 minutes, then in 20. Practice the follow-ups below.
